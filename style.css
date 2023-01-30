@@ -1,0 +1,108 @@
+body{background: rgba(2, 12, 39, 1);
+	font-size: 1em;}
+h1{color:rgb(147, 126, 6)}
+h2{color:rgb(147, 126, 6);}
+h3{color:rgb(147, 126, 6);}
+h4{color:rgb(147, 126, 6);}
+h5{color:rgba(31, 97, 141, 1.0);}
+h6{color:rgb(255, 255, 252);}
+p{color:rgb(255, 255, 252);
+	font-size: 22.5px;}
+li{color:rgb(255, 255, 252);}
+
+.logotitlecontainer{display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items:center;}
+
+.logo{width: 150px; 
+	margin: 15px; 
+	padding: 0;}
+
+.title{color:rgb(147, 126, 6); 
+	text-transform: capitalize;
+	text-align: center; 
+	font-style: italic; 
+	font-size: 36px;
+	font-weight: 900; 
+	padding: 10px 0px; 
+	margin: 0; 
+	text-align: center;}
+
+.directorycontainer{display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items:center;}
+
+.tracy{float: right; 
+	padding: 10px;
+	border-radius: 50%;}
+
+.bodycontainer{padding: 10px 40px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;}
+
+.servicesbodycontainer{display: flex;
+	flex-direction:column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;}
+
+.directorylink{color:rgb(147, 126, 6); 
+	text-decoration: none; 
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: uppercase; 
+	text-align: center;
+	margin: 0px 20px;
+	-webkit-transition: color 0.1s linear;
+	-moz-transition: color 0.1s linear;
+	-o-transition: color 0.1s linear;}
+
+.directorylink:hover{color: rgb(255, 255, 252);}
+
+.contact{color: rgb(147, 126, 6); 
+	font-size: 18px; 
+	text-align: center;}
+
+.subh-class{text-align: left; 
+	color:rgb(147, 126, 6);
+	font-size: 25.5px; 
+	padding: 0px;}
+
+.servicessubh-class{text-align: center; 
+	color:rgb(147, 126, 6);
+	font-size: 20px; 
+	padding: 0px;}
+
+.bookapt{font: fantasy;
+	background: rgb(139, 128, 0);
+	margin: 0px 0px 20px 0px;
+	color: rgb(255, 255, 255);
+	font-weight: 500;
+	padding: 8px 15px;
+	font-size: 18px;
+	border: none;
+	border-radius: 12px;
+	-webkit-transition: background .1s linear;
+	-moz-transition: background .1s linear;
+	-o-transition: background .1s linear;}
+
+.bookapt:hover{background: rgb(189,178,50);}
+
+.contact{color: rgb(147, 126, 6); 
+	font-size: 18px; 
+	text-align: center;}
+
+.inc{color:rgb(255, 255, 252); 
+	font-size: 10px; 
+	text-align: center;
+	padding: 0px 0px 20px 0px;
+}
+
+.list-class{margin: 0px}
